@@ -181,15 +181,20 @@
 
 ---
 
-### ✅ **15. Custom Exception – AgeError**
+### ✅ **15. Oddiy Class
 
-🚫 `AgeError` nomli custom exception
+**Vazifa:** `Phone` nomli class yarating. Uning `brand`, `model` atributlari bo'lsin va `show_info()` metodi telefon haqida ma'lumot chiqarsin.
 
-**Shartlar:**
+**Misol:**
+```python
+phone = Phone("Samsung", "Galaxy S21")
+phone.show_info()
+```
 
-* Agar foydalanuvchi yoshi manfiy bo‘lsa, `raise AgeError("Yosh noto‘g‘ri!")`
-
----
+**Natija:**
+```
+Phone: Samsung Galaxy S21
+```
 
 ### ✅ **16. Polymorphism – Bird va Dog**
 
